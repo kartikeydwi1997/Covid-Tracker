@@ -1,0 +1,46 @@
+.App {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.containercard{
+  text-align: center;
+  /* align-items: center; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.containercountry{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* width: 300px;
+  margin-top: 50px; */
+  /* object-fit: cover; */
+}
+body{
+  background-color: rgb(246,247,250);
+width: '412px!important';
+}
+::-webkit-scrollbar {
+  width: 0px;
+}
+.image{
+  width: 370px;
+  /* margin-top: 50px; */
+}
+@media(max-width:400px){
+  .image {
+    width:300px
+  }
+}
+/* 
+@media only screen and (max-width: 770px) {
+  .container {
+    margin: 0 10%;
+  }
+
+  .image {
+    width: 100%;
+  }
+} */
