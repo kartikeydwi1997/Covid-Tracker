@@ -66,7 +66,7 @@ const Cards = ({data:{confirmed,recovered,deaths,lastUpdate }}) => {
             <Grid container spacing={1}>
           <Grid item>
             <ButtonBase className={classes.image}>
-              <img className={classes.img} alt="complex" src="images/infected.jpg" />
+              <img className={classes.img} alt="complex" src="Images/infected.jpg" />
             </ButtonBase>
           </Grid>
           <Grid item xs={6} sm container>
@@ -111,7 +111,7 @@ const Cards = ({data:{confirmed,recovered,deaths,lastUpdate }}) => {
             <Grid container spacing={1}>
           <Grid item>
             <ButtonBase className={classes.image}>
-              <img className={classes.img} alt="complex" src="images/recovered.jpg" />
+              <img className={classes.img} alt="complex" src="Images/recovered.jpg" />
             </ButtonBase>
           </Grid>
           <Grid item xs={6} sm container>
@@ -146,7 +146,7 @@ const Cards = ({data:{confirmed,recovered,deaths,lastUpdate }}) => {
             <Grid container spacing={1}>
           <Grid item>
             <ButtonBase className={classes.image}>
-              <img className={classes.img} alt="complex" src="images/death.jpg" />
+              <img className={classes.img} alt="complex" src="Images/death.jpg" />
             </ButtonBase>
           </Grid>
           <Grid item xs={6} sm container>
